@@ -2,10 +2,9 @@ import java.util.*;
 class Demo
 {
     public static void main(String[] args) {
-        System.out.println("1.hi 2.hey 3.hello");
         Scanner sc = new Scanner(System.in);
+        int x = sc.nextInt();
         int y = sc.nextInt();
-        int x = sc,nextInt();
         if(x>18)
         {
             System.out.println("eligible");
@@ -13,6 +12,7 @@ class Demo
         else {
             System.out.println("not eligible");
         }
+        System.out.println("1.hi 2.hey 3.hello");
         switch(y)
         {
             case 1:

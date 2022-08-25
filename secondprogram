@@ -1,0 +1,14 @@
+import java.util.*;
+class Demo
+{
+    public static void main(String[] args) {
+
+        Scanner sc= new Scanner(System.in);
+         int y =sc.nextInt();
+       int  d = y/1440;
+       int  year= d/365;
+       d=d%365;
+       System.out.println("years are"+year);
+       System.out.println("days are"+d);
+    }
+}

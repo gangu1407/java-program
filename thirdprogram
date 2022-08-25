@@ -5,6 +5,14 @@ class Demo
         System.out.println("1.hi 2.hey 3.hello");
         Scanner sc = new Scanner(System.in);
         int y = sc.nextInt();
+        int x = sc,nextInt();
+        if(x>18)
+        {
+            System.out.println("eligible");
+        }
+        else {
+            System.out.println("not eligible");
+        }
         switch(y)
         {
             case 1:

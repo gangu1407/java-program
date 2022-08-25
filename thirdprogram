@@ -1,0 +1,27 @@
+import java.util.*;
+class Demo
+{
+    public static void main(String[] args) {
+        System.out.println("1.hi 2.hey 3.hello");
+        Scanner sc = new Scanner(System.in);
+        int y = sc.nextInt();
+        switch(y)
+        {
+            case 1:
+            {
+                System.out.println("you said hi");
+                break;
+            }
+            case 2:
+            {
+                System.out.println("you said hey");
+                break;
+            }
+            case 3:
+            {
+                System.out.println("you said hello");
+                break;
+            }
+        }
+    }
+}
